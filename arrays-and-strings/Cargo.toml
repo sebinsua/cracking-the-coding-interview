@@ -1,0 +1,8 @@
+[package]
+name = "arrays-and-strings"
+version = "0.1.0"
+authors = ["Seb Insua <me@sebinsua.com>"]
+
+[[bin]]
+name = "is_unique"
+path = "src/is_unique.rs"
