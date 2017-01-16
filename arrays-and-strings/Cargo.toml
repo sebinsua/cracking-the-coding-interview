@@ -14,3 +14,7 @@ path = "src/check_permutation.rs"
 [[bin]]
 name = "urlify"
 path = "src/urlify.rs"
+
+[[bin]]
+name = "palindrome_permutation"
+path = "src/palindrome_permutation.rs"
