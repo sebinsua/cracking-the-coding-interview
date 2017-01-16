@@ -10,3 +10,7 @@ path = "src/is_unique.rs"
 [[bin]]
 name = "check_permutation"
 path = "src/check_permutation.rs"
+
+[[bin]]
+name = "urlify"
+path = "src/urlify.rs"
