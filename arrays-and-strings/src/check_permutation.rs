@@ -1,3 +1,7 @@
+
+/*
+ * Given two strings, write a method to decide if one is a permutation of the other.
+ */
 fn check_permutation(string1: &str, string2: &str) -> bool {
     if string1.len() != string2.len() {
         return false

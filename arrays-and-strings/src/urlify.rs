@@ -1,5 +1,10 @@
 use std::vec::Vec;
 
+/*
+ * Write a method to replace all spaces in a string with '%20'. You may assume that the string
+ * has sufficient space at the end to hold the additional characters, and that you are given the
+ * "true" length of the string. 
+ */
 fn urlify(string: &str) -> String {
     let whitespace_count = string.chars().fold(0, |acc, c| if c == ' ' { acc + 1 } else { acc });
     let new_string_length = string.len() + (whitespace_count * 3);

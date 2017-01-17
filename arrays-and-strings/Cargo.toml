@@ -20,8 +20,20 @@ name = "palindrome_permutation"
 path = "src/palindrome_permutation.rs"
 
 [[bin]]
+name = "one_away"
+path = "src/one_away.rs"
+
+[[bin]]
 name = "string_compression"
 path = "src/string_compression.rs"
+
+[[bin]]
+name = "zero_matrix"
+path = "src/zero_matrix.rs"
+
+[[bin]]
+name = "rotate_matrix"
+path = "src/rotate_matrix.rs"
 
 [[bin]]
 name = "string_rotation"
