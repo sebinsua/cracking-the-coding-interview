@@ -18,3 +18,7 @@ path = "src/urlify.rs"
 [[bin]]
 name = "palindrome_permutation"
 path = "src/palindrome_permutation.rs"
+
+[[bin]]
+name = "string_rotation"
+path = "src/string_rotation.rs"
