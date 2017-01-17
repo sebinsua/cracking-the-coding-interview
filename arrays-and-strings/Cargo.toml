@@ -20,5 +20,9 @@ name = "palindrome_permutation"
 path = "src/palindrome_permutation.rs"
 
 [[bin]]
+name = "string_compression"
+path = "src/string_compression.rs"
+
+[[bin]]
 name = "string_rotation"
 path = "src/string_rotation.rs"
