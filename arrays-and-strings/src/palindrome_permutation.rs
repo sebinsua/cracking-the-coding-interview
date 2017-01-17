@@ -4,15 +4,14 @@ fn palindrome_permutation(string: &str) -> bool {
     }
 
     let mut chars: [u32; 128] = [0; 128];
+    let mut odds = 0;
     for c in string.chars() {
         let idx = c as usize;
         chars[idx] = chars[idx] + 1;
-    }
-
-    let mut odds = 0;
-    for n in chars.iter() {
-        if *n > 0 && n % 2 != 0 {
-            odds = odds + 1;
+        if chars[idx] % 2 != 0 {
+            odds = odds + 1
+        } else {
+            odds = odds - 1
         }
     }
 
