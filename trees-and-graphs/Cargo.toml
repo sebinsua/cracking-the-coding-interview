@@ -1,0 +1,8 @@
+[package]
+name = "trees-and-graphs"
+version = "0.1.0"
+authors = ["Seb Insua <me@sebinsua.com>"]
+
+[[bin]]
+name = "route_between_nodes"
+path = "src/route_between_nodes.rs"
